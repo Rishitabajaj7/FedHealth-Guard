@@ -3839,3 +3839,437 @@ small {
     overflow-x: hidden;
   }
 }
+/* =========================================================
+   FEDHEALTH GUARD - READABILITY OVERRIDE
+   ========================================================= */
+
+/* Simple, widely-used font */
+html,
+body,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Keep the dark sidebar EXACTLY as it is */
+.sidebar {
+  background: #0c1728;
+  color: #ffffff;
+}
+
+.sidebar .brand h1,
+.sidebar .nav-item,
+.sidebar .nav-item span,
+.sidebar .network-status strong,
+.sidebar .network-status span,
+.sidebar .security-card strong,
+.sidebar .security-card span,
+.sidebar .sidebar-version {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sidebar navigation stays white/readable */
+.sidebar .nav-item {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.sidebar .nav-item span {
+  font-size: 14px;
+}
+
+.sidebar .nav-heading {
+  font-size: 10px;
+}
+
+.sidebar .network-status strong {
+  font-size: 13px;
+}
+
+.sidebar .network-status span {
+  font-size: 12px;
+}
+
+.sidebar .security-card strong {
+  font-size: 12px;
+}
+
+.sidebar .security-card span {
+  font-size: 11px;
+}
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.main-content {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Top bar */
+.topbar h2 {
+  color: #000000;
+  font-size: 18px;
+}
+
+.breadcrumb {
+  color: #333333;
+  font-size: 11px;
+}
+
+/* =========================================================
+   MAIN PAGE HEADINGS
+   Keep H1 relatively small
+   ========================================================= */
+
+.page-intro h1 {
+  font-size: 30px;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.page-section-header h1 {
+  font-size: 30px;
+  color: #000000;
+}
+
+.placeholder-page h1 {
+  font-size: 29px;
+  color: #000000;
+}
+
+/* H2/H3 */
+.main-content h2 {
+  color: #000000;
+  font-size: 22px;
+}
+
+.main-content h3 {
+  color: #000000;
+  font-size: 18px;
+}
+
+/* =========================================================
+   NORMAL CONTENT
+   ========================================================= */
+
+.main-content p {
+  color: #000000;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Descriptions */
+.page-intro p,
+.page-section-header p,
+.placeholder-page p {
+  color: #222222;
+  font-size: 14px;
+}
+
+/* =========================================================
+   STAT CARDS
+   ========================================================= */
+
+.stat-info span,
+.network-stat-card span,
+.training-stat-card span,
+.privacy-config-card span {
+  color: #222222;
+  font-size: 13px;
+}
+
+.stat-info strong,
+.network-stat-card strong,
+.training-stat-card strong,
+.privacy-config-card strong {
+  color: #000000;
+}
+
+.stat-info strong {
+  font-size: 24px;
+}
+
+.network-stat-card strong,
+.training-stat-card strong {
+  font-size: 22px;
+}
+
+.stat-info small,
+.network-stat-card small,
+.training-stat-card small,
+.privacy-config-card small {
+  color: #333333;
+  font-size: 12px;
+}
+
+/* =========================================================
+   PANELS
+   ========================================================= */
+
+.panel h3,
+.training-panel-header h3,
+.privacy-panel-header h3 {
+  color: #000000;
+  font-size: 18px;
+}
+
+.panel-kicker,
+.panel-description {
+  color: #333333;
+  font-size: 11px;
+}
+
+.chart-value strong {
+  font-size: 19px;
+}
+
+.chart-value span {
+  color: #333333;
+  font-size: 11px;
+}
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+.table-row {
+  color: #000000;
+  font-size: 14px;
+}
+
+.table-heading {
+  color: #222222;
+  font-size: 11px;
+}
+
+.client-name strong {
+  color: #000000;
+  font-size: 14px;
+}
+
+.progress-cell span {
+  color: #222222;
+  font-size: 13px;
+}
+
+.weight-cell strong {
+  font-size: 13px;
+}
+
+/* =========================================================
+   HOSPITAL NETWORK
+   ========================================================= */
+
+.hospital-title span {
+  color: #333333;
+  font-size: 10px;
+}
+
+.hospital-title h3 {
+  color: #000000;
+  font-size: 17px;
+}
+
+.protected-badge {
+  font-size: 11px;
+}
+
+.hospital-main-metric span,
+.section-label,
+.metric-row span,
+.contribution-heading span {
+  color: #222222;
+  font-size: 13px;
+}
+
+.hospital-main-metric strong {
+  color: #000000;
+  font-size: 20px;
+}
+
+.distribution-legend,
+.metric-row small,
+.contribution-section small {
+  color: #333333;
+  font-size: 12px;
+}
+
+.metric-row > strong,
+.contribution-heading strong {
+  color: #000000;
+  font-size: 14px;
+}
+
+.network-explanation h3 {
+  color: #000000;
+  font-size: 17px;
+}
+
+.network-explanation p {
+  color: #222222;
+  font-size: 14px;
+}
+
+/* =========================================================
+   FEDERATED TRAINING
+   ========================================================= */
+
+.training-status strong {
+  font-size: 13px;
+}
+
+.training-status span {
+  font-size: 12px;
+}
+
+.workflow-step h4 {
+  color: #000000;
+  font-size: 14px;
+}
+
+.workflow-step p {
+  color: #222222;
+  font-size: 13px;
+}
+
+.activity-label {
+  font-size: 12px;
+}
+
+.client-activity-top strong {
+  color: #000000;
+  font-size: 13px;
+}
+
+.client-activity-top span,
+.activity-bottom span,
+.activity-bottom strong {
+  font-size: 11px;
+}
+
+.training-explanation h3 {
+  color: #000000;
+  font-size: 17px;
+}
+
+.training-explanation p {
+  color: #222222;
+  font-size: 14px;
+}
+
+.round-item strong {
+  color: #000000;
+  font-size: 12px;
+}
+
+.round-item span {
+  color: #333333;
+  font-size: 11px;
+}
+
+/* =========================================================
+   PRIVACY CENTER
+   ========================================================= */
+
+.privacy-status strong {
+  font-size: 13px;
+}
+
+.privacy-status span {
+  font-size: 12px;
+}
+
+.privacy-parameter span {
+  color: #222222;
+  font-size: 12px;
+}
+
+.privacy-parameter strong {
+  color: #000000;
+  font-size: 21px;
+}
+
+.privacy-parameter p {
+  color: #333333;
+  font-size: 13px;
+}
+
+.epsilon-heading span {
+  color: #222222;
+  font-size: 10px;
+}
+
+.epsilon-client strong {
+  color: #000000;
+  font-size: 13px;
+}
+
+.epsilon-client span {
+  color: #333333;
+  font-size: 11px;
+}
+
+.epsilon-value {
+  color: #000000;
+  font-size: 14px;
+}
+
+.privacy-score-cell span {
+  color: #222222;
+  font-size: 12px;
+}
+
+.privacy-status-pill {
+  font-size: 11px;
+}
+
+/* =========================================================
+   CHART TEXT
+   ========================================================= */
+
+.recharts-text,
+.recharts-cartesian-axis-tick-value {
+  fill: #000000 !important;
+  font-size: 13px !important;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.main-content button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+/* FORCE SIDEBAR TEXT TO WHITE */
+.sidebar,
+.sidebar * {
+  color: #ffffff !important;
+}
+
+.sidebar .nav-item,
+.sidebar .nav-item span,
+.sidebar .brand h1,
+.sidebar .network-status strong,
+.sidebar .network-status span,
+.sidebar .security-card strong,
+.sidebar .security-card span,
+.sidebar .sidebar-version {
+  color: #ffffff !important;
+}
+
+/* Keep the small green subtitle under FedHealth Guard */
+.sidebar .brand span {
+  color: #6edfd2 !important;
+}
+
+/* Keep navigation readable */
+.sidebar .nav-item span {
+  font-size: 14px !important;
+}
+
+.sidebar .nav-heading {
+  color: #ffffff !important;
+  font-size: 10px !important;
+}
