@@ -3581,6 +3581,149 @@ button {
     flex-wrap: wrap;
   }
 }
+/* =========================================
+   READABLE & SIMPLE TYPOGRAPHY
+   ========================================= */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: 16px;
+}
+
+/* Main headings */
+h1 {
+  font-size: 34px !important;
+  font-weight: 700 !important;
+  color: #000000 !important;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 26px !important;
+  font-weight: 700 !important;
+  color: #000000 !important;
+}
+
+h3 {
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  color: #000000 !important;
+}
+
+/* Normal text */
+p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+/* Sidebar */
+.sidebar,
+.sidebar * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar a,
+.sidebar button {
+  font-size: 16px !important;
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.sidebar a.active {
+  font-weight: 700 !important;
+}
+
+/* Dashboard card text */
+.card,
+.stat-card,
+.metric-card {
+  color: #000000;
+}
+
+.card h3,
+.stat-card h3,
+.metric-card h3 {
+  color: #000000 !important;
+  font-size: 19px !important;
+}
+
+.card p,
+.stat-card p,
+.metric-card p {
+  color: #000000 !important;
+  font-size: 15px !important;
+}
+
+/* Large metric numbers */
+.stat-value,
+.metric-value,
+.metric-card .value {
+  color: #000000 !important;
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+
+/* Labels */
+.label,
+.stat-label,
+.metric-label {
+  color: #000000 !important;
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+/* Buttons */
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* Tables */
+table {
+  font-size: 16px;
+  color: #000000;
+}
+
+th {
+  color: #000000 !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+td {
+  color: #000000 !important;
+  font-size: 15px;
+}
+
+/* Small text should still remain readable */
+small {
+  font-size: 13px;
+  color: #222222;
+}
+
+/* Navigation / breadcrumbs */
+.breadcrumb,
+.page-label,
+.section-label {
+  color: #000000 !important;
+  font-size: 14px !important;
+}
+
+/* Chart text */
+.recharts-text {
+  fill: #000000 !important;
+  font-size: 13px !important;
+}
+
+.recharts-cartesian-axis-tick-value {
+  fill: #000000 !important;
+}
 /* ================================
    FOOTER
 ================================ */
