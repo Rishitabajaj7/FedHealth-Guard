@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# Environment variables
+.env
+.env.*
+
+# Build files
+dist/
+build/
+
+# Python
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large ML files
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Logs
+*.log
